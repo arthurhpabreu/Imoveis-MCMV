@@ -1,8 +1,26 @@
-﻿@{
+﻿<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <img id="logo" src="https://igarapemiri.pa.gov.br/wp-content/uploads/2023/11/minha-casa-minha-vida-logo-0.png" class="img-fluid" alt="Minha Casa Minha Vida">
+    <div class="row">
+        <div class="col">
+            <select class="form-select" id="estado">
+                <option selected>Escolha um estado...</option>
+                <option value="1">Estado 1</option>
+                <option value="2">Estado 2</option>
+                <option value="3">Estado 3</option>
+            </select>
+        </div>
+        <div class="col">
+            <select class="form-select" id="bairro">
+                <option selected>Escolha um bairro...</option>
+                <option value="1">Bairro 1</option>
+                <option value="2">Bairro 2</option>
+                <option value="3">Bairro 3</option>
+            </select>
+        </div>
+    </div>
 </div>

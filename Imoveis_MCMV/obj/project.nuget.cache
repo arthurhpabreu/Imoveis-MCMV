@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9GNmByYxXVLiPIyQEtF16szeX6iLCAfDwy9Z2jBlJ8gsKiOvmglGXYQxoRWHbqP6yZCG27UMNDvAzUoMjRCTYw==",
+  "dgSpecHash": "33xtnNCG3Dq9iCTdimWQHOTrmJux7LWnMoJl8f/k/ITCZpf/tpOL9ALbjZLSULH+0v1DAyytawG3JfbjI1y9FQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Arthur-Trabalho\\source\\repos\\Imoveis_MCMV\\Imoveis_MCMV\\Imoveis_MCMV.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Arthur-Trabalho\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
